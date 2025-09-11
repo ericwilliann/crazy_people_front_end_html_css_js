@@ -1,17 +1,20 @@
 html {
   font-size: 18px;
 }
+
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif
+  font-family: Arial, Helvetica, sans-serif;
 }
+
 .title {
   font-size: 1.4rem;
   font-weight: normal;
   text-align: center;
   margin-top: 12%;
 }
+
 .grid-vertical {
   display: flex;
   flex-direction: column;
@@ -20,17 +23,20 @@ body {
   gap: 5%;
   height: 100vh;
 }
+
 .container-content {
   display: flex;
   flex-direction: column;
   height: 80vh;
 }
+
 .group-buttons {
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 20vh;
 }
+
 a.button {
   display: flex;
   text-decoration: none;
@@ -44,41 +50,49 @@ a.button {
   justify-content: center;
   font-size: 1rem;
 }
+
 .button-primary {
   color: #ffffff;
   background-color: #191918;
   border: 1px solid #191918;
 }
+
 .button-primary:hover {
   background-color: #333333;
   border: 1px solid #333333;
 }
+
 .button-secondary {
   color: #616468;
   background-color: #efeff0;
   border: 1px solid #efeff0;
   margin-top: 6px;
 }
+
 .button-secondary:hover {
   background-color: #e1e1e2;
   border: 1px solid #e1e1e2;
 }
+
 .button-cancel {
   color: #efeff0;
   background-color: #c00;
   border: 1px solid #efeff0;
   margin-top: 6px;
 }
+
 .button-cancel:hover {
   background-color: rgba(204, 0, 0, 0.626);
   border: 1px solid #e1e1e2;
 }
+
 .image-full-width {
   flex: 1;
   width: 90%;
   align-self: center;
   margin-bottom: 40px;
 }
+
 .image-centered {
   align-self: center;
   flex: 1;
@@ -90,11 +104,13 @@ a.button {
   flex-direction: column;
   margin-bottom: 8px;
 }
+
 .form-group label {
   font-weight: bold;
   font-size: 0.6rem;
   margin-bottom: 5px;
 }
+
 .form-group input {
   width: 100%;
   border-radius: 8px;
@@ -102,27 +118,58 @@ a.button {
   padding: 12px;
   font-size: 0.6rem;
 }
-.form-group .input-password{
+
+.form-group .input-password {
   flex: 1;
   position: relative;
   width: 100%;
 }
-.form-group .input-password .icon-eye{
+
+.form-group .input-password .icon-eye {
   color: #afb1b6;
   position: absolute;
   right: 0;
   top: 10px;
   cursor: pointer;
-
 }
+
 .form-group::placeholder {
   color: #afb1b6;
   opacity: 1;
 }
+
 .form-group::-ms-input-placeholder {
   color: #afb1b6;
 }
+
 .form-centered {
   margin: auto;
   width: 100%;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+a.general:link,
+a.general:link:visited {
+  color: #2563eb;
+  font-weight: 600px;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+a.general:link:hover {
+  color: #00c;
+  font-weight: 600px;
+}
+
+.button-post{
+  background-color: #0284c7;
+  color: #fff;
+  border-radius: 4px;
+  padding: 4px 16px 4px 16px;
+  border-width: 0px;
 }
